@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T12:17:37.678Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="JxDv8hga11uvbkVtvHNC" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T12:22:14.353Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="35ihkSWLNWAxybeIHl8l" version="24.4.0" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1306" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -19,8 +19,8 @@
         <mxCell id="77e6c97f196da883-3" value="inputd" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="160" y="20" width="160" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-11" value="&lt;div&gt;Inputd:notify&lt;br&gt;&lt;/div&gt;Inputd:accept:&lt;div&gt;Inputd:accept:96: Event is not a key or switch type: 4&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
-          <mxGeometry x="10" y="60" width="140" height="60" as="geometry" />
+        <mxCell id="77e6c97f196da883-11" value="&lt;div&gt;Inputd:notify&lt;br&gt;&lt;/div&gt;Inputd:accept:&lt;div&gt;Inputd:accept:96: Event is not a key or switch type: 4&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;acquirePowerResource:219: power resource needed, device display state is off but don&#39;t wake the device&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="10" y="40" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="4llOrDusf5U5oBpGNFT5-69" value="&lt;div&gt;onPowerStateChanged&lt;br&gt;&lt;/div&gt;&lt;div&gt;Received power state change for the display: ignoring because the resource is forced off&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-3">
           <mxGeometry x="10" y="180" width="140" height="60" as="geometry" />
@@ -52,8 +52,8 @@
         <mxCell id="77e6c97f196da883-7" value="lcm_service" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="640" y="20" width="160" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="4llOrDusf5U5oBpGNFT5-55" value="PowerManager:receive event::DISPLAY" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
-          <mxGeometry x="30" y="146" width="100" height="60" as="geometry" />
+        <mxCell id="4llOrDusf5U5oBpGNFT5-55" value="api:PowerManager:receive event::DISPLAY, LEVEL = 3, Notifier = 3" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="77e6c97f196da883-7">
+          <mxGeometry x="10" y="146" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4llOrDusf5U5oBpGNFT5-61" value="idle-manager" style="swimlane;html=1;startSize=20;" vertex="1" parent="77e6c97f196da883-1">
           <mxGeometry x="800" y="20" width="240" height="730" as="geometry" />
