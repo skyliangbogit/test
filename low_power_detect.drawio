@@ -33,8 +33,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="77e6c97f196da883-13" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Vdet &amp;lt; Vrst&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
-          <mxGeometry x="83" y="324" width="80" height="60" as="geometry" />
+        <mxCell id="77e6c97f196da883-13" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;VBUS &amp;lt; Vrst&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
+          <mxGeometry x="69.5" y="324" width="107" height="60" as="geometry" />
         </mxCell>
         <mxCell id="X5SGGmR4GnR41LdHTve2-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-3" source="X5SGGmR4GnR41LdHTve2-22" target="X5SGGmR4GnR41LdHTve2-25">
           <mxGeometry relative="1" as="geometry" />
@@ -81,7 +81,9 @@
           <mxGeometry x="35" y="507" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-7" value="Lane 6" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
-          <mxGeometry x="930" y="20" width="160" height="720" as="geometry" />
+          <mxGeometry x="930" y="20" width="160" height="720" as="geometry">
+            <mxRectangle x="930" y="20" width="40" height="720" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="X5SGGmR4GnR41LdHTve2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="77e6c97f196da883-1" source="77e6c97f196da883-13" target="77e6c97f196da883-8">
           <mxGeometry relative="1" as="geometry">
