@@ -35,7 +35,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X5SGGmR4GnR41LdHTve2-22" value="Read SLRstCount From&lt;div&gt;persist storage&lt;/div&gt;&lt;div&gt;SLRstCount=&lt;span style=&quot;background-color: initial;&quot;&gt;SLRstCount+1&lt;/span&gt;&lt;/div&gt;&lt;div&gt;save&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;SLRstCount&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=11;align=center;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry y="44" width="160" height="60" as="geometry" />
+          <mxGeometry x="5" y="44" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="X5SGGmR4GnR41LdHTve2-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="77e6c97f196da883-3" source="X5SGGmR4GnR41LdHTve2-25" target="77e6c97f196da883-11">
           <mxGeometry relative="1" as="geometry" />
