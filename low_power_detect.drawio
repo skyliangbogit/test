@@ -32,7 +32,7 @@
           <mxGeometry x="40" y="301" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="X5SGGmR4GnR41LdHTve2-22" value="Chec the&amp;nbsp;&lt;div&gt;Simu&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=11;align=center;" vertex="1" parent="77e6c97f196da883-3">
-          <mxGeometry x="30" y="71" width="100" height="60" as="geometry" />
+          <mxGeometry x="30" y="65" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-4" value="kernel" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="320" y="20" width="210" height="730" as="geometry" />
