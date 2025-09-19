@@ -1,9 +1,99 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="4-ZeUV6iOkZujmmV8QfV">
-    <mxGraphModel>
+    <mxGraphModel dx="2066" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;arcSize=20;" edge="1" parent="1" source="tevc2y_veFzn8RBeS9Ce-3" target="tevc2y_veFzn8RBeS9Ce-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-3" value="PowerOn" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tevc2y_veFzn8RBeS9Ce-5" target="tevc2y_veFzn8RBeS9Ce-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-5" value="&lt;span style=&quot;font-family: Verdana; font-size: 11px;&quot;&gt;Read Power_loss_count From&lt;/span&gt;&lt;div style=&quot;font-family: Verdana; font-size: 11px;&quot;&gt;persist storage&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tevc2y_veFzn8RBeS9Ce-7" target="tevc2y_veFzn8RBeS9Ce-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-7" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-family: Verdana; font-size: 11px;&quot;&gt;Power_loss_count++&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Verdana; font-size: 11px;&quot;&gt;save&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;to storage&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tevc2y_veFzn8RBeS9Ce-11" target="tevc2y_veFzn8RBeS9Ce-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-9" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tevc2y_veFzn8RBeS9Ce-8">
+          <mxGeometry x="-0.7682" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-10" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tevc2y_veFzn8RBeS9Ce-11" target="tevc2y_veFzn8RBeS9Ce-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-11" value="&lt;span style=&quot;font-family: Verdana; font-size: 11px;&quot;&gt;Power_loss_count&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 11px;&quot;&gt;&amp;gt; 5&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="160" y="341" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tevc2y_veFzn8RBeS9Ce-13" target="tevc2y_veFzn8RBeS9Ce-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-13" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Enable PWM&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;simulate load&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 42, 10);&quot; face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;500mA&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tevc2y_veFzn8RBeS9Ce-15" target="tevc2y_veFzn8RBeS9Ce-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-15" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Read adc&lt;br&gt;&lt;/span&gt;&lt;/font&gt;adc_with_pwm_load&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: #003366;&quot;&gt;caculate impedance&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="657" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tevc2y_veFzn8RBeS9Ce-17" target="tevc2y_veFzn8RBeS9Ce-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-17" value="Kernel&lt;br&gt;&lt;div&gt;Create sysfs node for&lt;br&gt;Power API&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Power_loss_count&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 11px;&quot;&gt;=0&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-18" value="Apps&lt;br&gt;Check Power Level" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tevc2y_veFzn8RBeS9Ce-20" target="tevc2y_veFzn8RBeS9Ce-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-20" value="Show LowPower&lt;br&gt;logo" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tevc2y_veFzn8RBeS9Ce-22" target="tevc2y_veFzn8RBeS9Ce-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-22" value="&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;Read adc&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: #003366;&quot;&gt;adc_without_pwm&lt;/span&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="170" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tevc2y_veFzn8RBeS9Ce-27" target="tevc2y_veFzn8RBeS9Ce-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-24" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tevc2y_veFzn8RBeS9Ce-23">
+          <mxGeometry x="-0.1714" y="1" relative="1" as="geometry">
+            <mxPoint x="-13" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tevc2y_veFzn8RBeS9Ce-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-26" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tevc2y_veFzn8RBeS9Ce-25">
+          <mxGeometry x="-0.1333" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tevc2y_veFzn8RBeS9Ce-27" value="&lt;span style=&quot;color: rgb(0, 51, 102);&quot;&gt;impedance&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 11px;&quot;&gt;&amp;gt;1.5ohms&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="160" y="750" width="140" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
